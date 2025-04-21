@@ -6,7 +6,7 @@
 #define REAL_PI_THREE_HALFS 0x0004b65f
 #define REAL_PI_HALF 0x00019220
 
-// abstarcion of floating point number on 32 bits, higher 16 are whole, and lower 16 are digits after coma
+// abstarcion of floating point number on 32 bits, higher 16 are whole, and lower 16 are digits after a comma
 typedef int32_t real;
 
 real real_add(real x, real y);
